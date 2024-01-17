@@ -203,7 +203,14 @@ Modal
 	background: transparent;
 	border-color: transparent;
 	cursor: pointer;
+	transition: all 0.3s ease-in-out;
 }
+
+.close-btn:hover {
+	color: #ecaeae;
+	transform: scale(1.1) rotate(90deg);
+}
+
 .next-btn,
 .prev-btn {
 	position: absolute;
